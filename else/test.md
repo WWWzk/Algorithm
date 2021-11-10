@@ -131,3 +131,124 @@ _____
 
 
 
+# 代码
+
+### 段落中的代码
+
+使用反引号``
+
+`printf()`
+
+
+
+### 代码区块
+
+使用四个空格或者一个制表符（Tab）
+
+​    import numpy as np
+
+​	import torch
+
+
+
+使用```包裹一段代码 并指定一种语言（也可以不指定）
+
+```python
+import numpy as np
+import torch
+print('hello world')
+```
+
+
+
+# 链接
+
+使用方法如下
+
+### 一般
+
+[连接名称]（链接地址）
+
+或者
+
+<链接地址>
+
+
+
+这是一个链接 [菜鸟教程](https://www.runoob.com)
+
+<https://www.runoob.com>
+
+
+
+### 高级链接
+
+通过变量设置一个链接，变量赋值在文档末尾
+
+链接1[Google](1)
+
+链接runoob[Runoob](runoob)
+
+
+
+[1]: https://www.google.com
+[runoob]:https://www.runoob.com
+
+
+
+# 图片
+
+![alt 属性文本]   (图片地址 “可选标题”)
+
+<img src=".\18w.jpg" alt="alt 18w的头像"  />
+
+
+
+<img src=".\18w.jpg" width="50%">
+
+
+
+# 表格
+
+|来分割不同的单元格，-来分隔表头和其他行
+
+
+
+- -：设置内容和标题栏右对齐
+- :- 设置左对齐
+- :-: 设置居中对齐
+
+
+
+| 左对齐 | 右对齐 | 居中对齐 |
+| :----- | -----: | :------: |
+| 单元格 | 单元格 |  单元格  |
+
+
+
+# 高级
+
+### 支持html元素
+
+目前支持的 HTML 元素有：<kbd><b><i><em><sup><sub><br>等 
+
+使用<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>重启电脑
+
+
+
+### 转义
+
+使用反斜杠转义
+
+*斜体*
+
+\*斜体\*
+
+
+
+### 公式
+
+使用$$包裹latex公式
+$$
+x^2 + y^2 = 1
+$$
